@@ -9,6 +9,25 @@ an A-Frame component and primitive for boxes with rounded edges
 
 
 
+## Properties ##
+
+`aframe-rounded-box-component` is an A-Frame component with the following properties:
+
+<table>
+ <tbody>
+  <tr><th>Properties</th><th>Description</th></tr>
+ </tbody>
+ <tbody>
+  <tr><td>width</td><td>the box's width (default: 1)</td></tr>
+  <tr><td>height</td><td>the box's height (default: 1)</td></tr>
+  <tr><td>depth</td><td>the box's depth (default: 1)</td></tr>
+  <tr><td>radius</td><td>the box's bevel radius (max. 50% of the smallest value among width, height and depth, default: 0.1)</td></tr>
+  <tr><td>segments</td><td>the number of segments used to model round edges (default: 3)</td></tr>
+ </tbody>
+</table>
+
+Additionally, this module defines an A-Frame primitive named `a-rounded-box` for this component which maps its attributes `width`, `height`, `depth`, `radius` and `segments` to component properties of the same name (see usage below)
+
 ## Usage ##
 
 Once loaded or imported, `aframe-rounded-box-component` may be used as a component of a plain A-Frame entity
