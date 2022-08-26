@@ -9,6 +9,19 @@ an A-Frame component and primitive for boxes with rounded edges
 
 
 
+### Primitive ###
+
+Alternatively, the primitive `a-rounded-box` may be used in order to get a more compact code:
+
+```html
+<a-scene>
+  <a-assets>
+    <img id="BillboardTexture" src="..."/>
+  </a-assets>
+  <a-rounded-box radius="0.3" material="color:green" position="0 1 0"></a-rounded-box>
+</a-scene>
+```
+
 ## Example ##
 
 Here is a complete example (albeit without the HTML boilerplate)
