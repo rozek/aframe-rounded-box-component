@@ -9,6 +9,28 @@ an A-Frame component and primitive for boxes with rounded edges
 
 
 
+## Installation ##
+
+`aframe-rounded-box-component` may be used as an ECMAScript module (ESM) or explicitly loaded after the `<script>` tag for A-Frame itself.
+
+For the ESM variant, install the package into your build environment using [NPM](https://docs.npmjs.com/) with the command
+
+```
+npm install aframe-rounded-box-component
+```
+
+and `import` it into your code whereever needed
+
+```javascript
+import "aframe-rounded-box-component"
+```
+
+Otherwise, load the plain script file directly
+
+```html
+<script src="https://unpkg.com/aframe-rounded-box-component"></script>
+```
+
 ## Properties ##
 
 `aframe-rounded-box-component` is an A-Frame component with the following properties:
