@@ -2,7 +2,7 @@
 
 an A-Frame component and primitive for boxes with rounded edges
 
-Boxes with sharp edges are already part of A-Frame's built-in components and primitves - but those with rounded edges are missing. `aframe-rounded-box-component` fills this gap and provides both an A-Frame component and primitive for such geometries.
+Boxes with sharp edges are already part of A-Frame's built-in components and primitives - but those with rounded edges are missing. `aframe-rounded-box-component` fills this gap and provides both an A-Frame component and primitive for such geometries.
 
 The implementation was inspired by an old [discourse posting](https://discourse.threejs.org/t/round-edged-box/1402).
 
