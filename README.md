@@ -9,6 +9,16 @@ an A-Frame component and primitive for boxes with rounded edges
 
 
 
+## Usage ##
+
+Once loaded or imported, `aframe-rounded-box-component` may be used as a component of a plain A-Frame entity
+
+```html
+<a-scene>
+  <a-entity rounded-box="radius:0.3" position="0 0 0"></a-entity>
+</a-scene>
+```
+
 ### Primitive ###
 
 Alternatively, the primitive `a-rounded-box` may be used in order to get a more compact code:
