@@ -2,6 +2,39 @@
 
 an A-Frame component and primitive for boxes with rounded edges
 
+
+
+
+
+
+
+
+## Example ##
+
+Here is a complete example (albeit without the HTML boilerplate)
+
+```html
+<script src="https://unpkg.com/aframe"></script>
+<script src="https://unpkg.com/aframe-hemisphere-controls"></script>
+<script src="https://unpkg.com/aframe-vertical-billboard-component"></script>
+
+<a-scene embedded
+  hemisphere-controls="position:0 0.5 4; target:0 0 0"
+  style="width:600px; height:450px"
+>
+  <a-sky color="#ECECEC"></a-sky>
+
+  <a-plane width="4" height="4" color="#7BC8A4"
+    position="0 0 0" rotation="-90 0 0"></a-plane>
+
+  <a-rounded-box radius="0.1" material="color:red"   position="-1.5 1 0"></a-rounded-box>
+  <a-rounded-box radius="0.3" material="color:green" position="0    1 0"></a-rounded-box>
+  <a-rounded-box radius="0.5" material="color:blue"  position="1.5  1 0"></a-rounded-box>
+</a-scene>
+```
+
+![Example Screenshot](screenshot.png)
+
 ## Build Instructions ##
 
 You may easily build this package yourself.
