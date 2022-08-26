@@ -67,9 +67,6 @@ Alternatively, the primitive `a-rounded-box` may be used in order to get a more 
 
 ```html
 <a-scene>
-  <a-assets>
-    <img id="BillboardTexture" src="..."/>
-  </a-assets>
   <a-rounded-box radius="0.3" material="color:green" position="0 1 0"></a-rounded-box>
 </a-scene>
 ```
@@ -81,7 +78,7 @@ Here is a complete example (albeit without the HTML boilerplate)
 ```html
 <script src="https://unpkg.com/aframe"></script>
 <script src="https://unpkg.com/aframe-hemisphere-controls"></script>
-<script src="https://unpkg.com/aframe-vertical-billboard-component"></script>
+<script src="https://unpkg.com/aframe-rounded-box-component"></script>
 
 <a-scene embedded
   hemisphere-controls="position:0 0.5 4; target:0 0 0"
