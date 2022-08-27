@@ -84,14 +84,21 @@ Here is a complete example (albeit without the HTML boilerplate)
   hemisphere-controls="position:0 0.5 4; target:0 0 0"
   style="width:600px; height:450px"
 >
-  <a-sky color="#ECECEC"></a-sky>
+  <a-sky color="#555555"></a-sky>
 
-  <a-plane width="4" height="4" color="#7BC8A4"
+  <a-entity light="type:ambient; color:#BBBBBB"></a-entity>
+  <a-entity light="type:directional; intensity:0.6; castShadow:true"
+    position="1 1 1"></a-entity>
+
+  <a-plane width="1000" height="1000" color="#555555" shadow="receive:true"
     position="0 0 0" rotation="-90 0 0"></a-plane>
 
-  <a-rounded-box radius="0.1" material="color:red"   position="-1.5 1 0"></a-rounded-box>
-  <a-rounded-box radius="0.3" material="color:green" position="0    1 0"></a-rounded-box>
-  <a-rounded-box radius="0.5" material="color:blue"  position="1.5  1 0"></a-rounded-box>
+  <a-rounded-box radius="0.1" material="color:#AA0000" shadow="cast:true"
+    position="-1.5 0.8 0"></a-rounded-box>
+  <a-rounded-box radius="0.3" material="color:#00AA00" shadow="cast:true"
+    position="0    0.8 0"></a-rounded-box>
+  <a-rounded-box radius="0.5" material="color:#0000CC" shadow="cast:true"
+    position="1.5  0.8 0"></a-rounded-box>
 </a-scene>
 ```
 
