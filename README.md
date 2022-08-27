@@ -4,6 +4,8 @@ an A-Frame component and primitive for boxes with rounded edges
 
 Boxes with sharp edges are already part of A-Frame's built-in components and primitives - but those with rounded edges are missing. `aframe-rounded-box-component` fills this gap and provides both an A-Frame component and a primitive for such geometries.
 
+![Example Screenshot](screenshot.png)
+
 The implementation was inspired by an old [discourse posting](https://discourse.threejs.org/t/round-edged-box/1402).
 
 **NPM users**: please consider the [Github README](https://github.com/rozek/aframe-vertical-billboard-component/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
@@ -101,8 +103,6 @@ Here is a complete example (albeit without the HTML boilerplate)
     position="1.5  0.8 0"></a-rounded-box>
 </a-scene>
 ```
-
-![Example Screenshot](screenshot.png)
 
 ## Build Instructions ##
 
