@@ -83,7 +83,7 @@ Here is a complete example (albeit without the HTML boilerplate)
 <script src="https://unpkg.com/aframe-rounded-box-component"></script>
 
 <a-scene embedded
-  hemisphere-controls="position:0 0.5 4; target:0 0 0"
+  hemisphere-controls="position:0 0.5 4; target:0 1 0"
   style="width:600px; height:450px"
 >
   <a-sky color="#555555"></a-sky>
