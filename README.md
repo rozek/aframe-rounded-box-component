@@ -90,17 +90,22 @@ Here is a complete example (albeit without the HTML boilerplate)
 
   <a-entity light="type:ambient; color:#BBBBBB"></a-entity>
   <a-entity light="type:directional; intensity:0.6; castShadow:true"
-    position="1 1 1"></a-entity>
+    position="1 1 1"
+  ></a-entity>
 
   <a-plane width="1000" height="1000" color="#555555" shadow="receive:true"
-    position="0 0 0" rotation="-90 0 0"></a-plane>
+    position="0 0 0" rotation="-90 0 0"
+  ></a-plane>
 
   <a-rounded-box radius="0.1" material="color:#AA0000" shadow="cast:true"
-    position="-1.5 0.8 0"></a-rounded-box>
+    position="-1.5 0.8 0"
+  ></a-rounded-box>
   <a-rounded-box radius="0.3" material="color:#00AA00" shadow="cast:true"
-    position="0    0.8 0"></a-rounded-box>
+    position="0    0.8 0"
+  ></a-rounded-box>
   <a-rounded-box radius="0.5" material="color:#0000CC" shadow="cast:true"
-    position="1.5  0.8 0"></a-rounded-box>
+    position="1.5  0.8 0"
+  ></a-rounded-box>
 </a-scene>
 ```
 
