@@ -15,7 +15,7 @@
 
   /**** init ****/
 
-    init: function (oldData:any):void {
+    init: function ():void {
       let Geometry = new THREE.BufferGeometry()
       let Material = new THREE.MeshStandardMaterial()
       let Mesh     = new THREE.Mesh(Geometry,Material)
